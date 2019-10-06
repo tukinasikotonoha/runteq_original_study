@@ -1,0 +1,15 @@
+current directory: /Users/kishimotokouta/Desktop/rails_app/runteq_original_study/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/kishimotokouta/.rbenv/versions/2.6.4/bin/ruby -I /Users/kishimotokouta/.rbenv/versions/2.6.4/lib/ruby/site_ruby/2.6.0 -r ./siteconf20191006-7474-zfl4er.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kishimotokouta/Desktop/rails_app/runteq_original_study/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/kishimotokouta/Desktop/rails_app/runteq_original_study/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/kishimotokouta/Desktop/rails_app/runteq_original_study/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20191006-7474-1enkty5/skiptrace/internal
