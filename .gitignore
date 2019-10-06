@@ -25,3 +25,9 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# Ruby Mine自動生成ファイル
+.idea/
+
+# 画像投稿
+public/uploads
