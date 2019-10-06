@@ -1,0 +1,19 @@
+current directory: /Users/kishimotokouta/Desktop/rails_app/runteq_original_study/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+/Users/kishimotokouta/.rbenv/versions/2.6.4/bin/ruby -I /Users/kishimotokouta/.rbenv/versions/2.6.4/lib/ruby/site_ruby/2.6.0 -r ./siteconf20191006-7474-165kfzy.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kishimotokouta/Desktop/rails_app/runteq_original_study/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/kishimotokouta/Desktop/rails_app/runteq_original_study/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/kishimotokouta/Desktop/rails_app/runteq_original_study/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20191006-7474-h05qjx/byebug
