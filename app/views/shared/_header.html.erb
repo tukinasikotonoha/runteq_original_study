@@ -17,8 +17,7 @@
           <% end %>
           <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <%# @nickname = User.find_by(id: current_user.id) %>
-              <%#= @nickname.nickname %>
+              <%= "#{current_user.decorate.full_name}" %>
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
               <%= link_to "マイページを表示", root_path, class: 'dropdown-item' %>
