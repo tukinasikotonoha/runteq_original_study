@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   authenticates_with_sorcery!
+  has_many :boards, dependent: :destroy # アソシエーション
   # バリデーション
   validates :email, uniqueness: true, presence: true
   validates :password, length: { minimum: 3 }, presence: true, confirmation: true, if: -> { new_record? || changes[:crypted_password] }
