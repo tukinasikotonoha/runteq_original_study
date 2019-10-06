@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   # RESTfulなルーティング
   resources :users, only: %i[new create]
+  resources :boards
 
   # ログイン機能
   get '/login', to: 'user_sessions#new'

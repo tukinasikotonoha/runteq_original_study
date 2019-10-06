@@ -1,0 +1,25 @@
+<div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+  <div id="product-id-33">
+    <div class="card">
+      <%= image_tag board.image.to_s, width: 300, height: 200, class: "card-img-top" %>
+      <div class="card-body">
+        <h4 class="card-title">
+          <%= link_to board_path(board) do %>
+            <%= board.title %>
+          <% end %>
+        </h4>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <i class="fa fa-user"></i>
+            <%= board.user.decorate.full_name %>
+          </li>
+          <li class="list-inline-item">
+            <i class="fa fa-calendar"></i>
+            <%= l board.created_at, format: :long %>
+          </li>
+        </ul>
+        <p class="card-text"><%= board.body %></p>
+      </div>
+    </div>
+  </div>
+</div>
