@@ -2,10 +2,23 @@ ja:
   activerecord:
     models:
       user: ユーザー
+      board: 掲示板
+      comment: コメント
     attributes:
       user:
         last_name: 姓
         first_name: 名
         email: メールアドレス
         password: パスワード
-        password_confirmation: パスワードを再入力
+        password_confirmation: パスワード再入力
+      board:
+        time:
+          formats:
+            default: "%Y/%m/%d %H:%M:%S"
+            long: "%Y年%m月%d日(%a) %H時%M分%S秒 %z"
+            short: "%y/%m/%d %H:%M"
+        title: タイトル
+        body: 本文
+        image: サムネイル
+      comment:
+        body: コメント
