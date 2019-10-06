@@ -1,0 +1,47 @@
+ja:
+  users:
+    new:
+      user_registration: ユーザー登録
+      registration: 登録
+      login_page_jump: ログインページへ
+  user_sessions:
+    new:
+      login: ログイン
+      registration_page_jump: 登録ページへ
+      forgot_password: パスワードをお忘れの方はこちら
+  boards:
+    index:
+      not_board: 掲示板がありません
+      search: 検索
+      board_index: 掲示板一覧
+    new:
+      board_create: 掲示板作成
+      create: 作成
+    edit:
+      board_edit: 掲示板編集
+      update: 更新
+    form:
+      update: 更新
+      create: 作成
+    bookmarks:
+      not_board: 1件もありません
+      search: 検索
+      board_index: 掲示板一覧
+    search_form:
+      search_word: 検索ワード
+  shared:
+    before_login_header:
+      login: ログイン
+    header:
+      board: 掲示板
+      board_list: 掲示板一覧
+      board_create: 掲示板作成
+      book_mark_list: ブックマーク一覧
+      profile: プロフィール
+      logout: ログアウト
+  comments:
+    comment_form:
+      create: 投稿
+  static_pages:
+    index:
+      runteq_base_curriculum: RUNTEQ 基礎編カリキュラム
