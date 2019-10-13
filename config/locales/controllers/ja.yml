@@ -1,0 +1,42 @@
+ja:
+  admin:
+    user_sessions:
+      create:
+        login_success: ログインしました
+        login_failed: ログインに失敗しました
+      admin_logout:
+        logout: ログアウトしました
+  admin_controller:
+    admin_user:
+      not_authority: 権限がありません
+  application_controller:
+    not_authenticated:
+      please_login: ログインしてください
+  boards:
+    create:
+      board_create: 掲示板の作成が完了しました
+      not_board_create: 掲示板を作成できませんでした
+    update:
+      board_update: 掲示板を更新しました
+      board_update_failed: 掲示板を更新できませんでした
+    destroy:
+      board_delete: 掲示板を削除しました
+  password_resets:
+    create:
+      password_reset_send: パスワードリセット手順を送信しました
+    update:
+      password_reset_action: パスワードが変更されました
+  profiles:
+    update:
+      user_update_success: ユーザーを更新しました
+      user_update_failed: ユーザーを更新できませんでした
+  user_sessions:
+    create:
+      login_success: ログインしました
+      login_failed: ログインに失敗しました
+    destroy:
+      logout: ログアウトしました
+  users:
+    create:
+      user_registration_success: ユーザー登録が完了しました
+      user_registration_failed: ユーザー登録に失敗しました

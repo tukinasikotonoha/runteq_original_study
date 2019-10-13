@@ -1,0 +1,9 @@
+<% content_for(:title, t(".board_create")) %>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2">
+    <h1><%= t(".board_create") %></h1>
+      <%= render 'form', board: @board %>
+    </div>
+  </div>
+</div>
